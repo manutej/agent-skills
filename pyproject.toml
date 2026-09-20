@@ -1,0 +1,20 @@
+[project]
+name = "o-cart"
+version = "0.1.0"
+description = "Geospatial intelligence helpers customized for Ormus workflows"
+readme = "O-CART.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Ormus Solutions" }]
+keywords = ["ormus", "geospatial", "carto", "workflows", "location-intelligence"]
+
+[project.urls]
+Homepage = "https://github.com/manutej/agent-skills"
+Upstream = "https://github.com/CartoDB/agent-skills"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
